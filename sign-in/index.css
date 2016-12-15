@@ -1,0 +1,106 @@
+body{
+	background: pink;
+}
+.wrapper {
+	width: 400px;
+	height: 250px;
+	border-radius: 15px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow:  0 1px 4px rgba(0, 0, 0, .6);
+ 	z-index: -10;
+}
+.login{
+	position: relative;
+	margin-left: 40px;
+	margin-top: -80px;
+}
+.inpute, .inputp{
+	width: 300px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid orange;
+}
+.inpute{
+	background-image: url('/home/simon/web-projects/ui-task/sign-in/images/User-512.png');
+	background-size: 10px 10px;
+	background-position: 10px 11px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+.inputp{
+	background-image: url('/home/simon/web-projects/ui-task/sign-in/images/lock_512pxGREY.png');
+	background-size: 10px 10px;
+	background-position: 10px 11px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+}
+.submit{
+	position: relative;
+	width: 300px;
+	height: 25px;
+
+	display: block;
+	margin: 10px auto;
+	margin-left: 40px;
+	padding: 0;
+
+	overflow: hidden;
+
+    border-width:  0;
+    outline: none;
+    border-radius: 2px;
+
+	background: red;
+	color: white;
+
+	transition: background-color .3s;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+}
+.profilebk{
+  	background: orange;
+  	background-image: url('/home/simon/web-projects/ui-task/sign-in/images/user.png');
+  	background-size: 140px 140px;
+  	background-position: 5px 5px;
+  	background-repeat: no-repeat;
+  	border: 5px solid pink;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 80px;
+   	position: relative;
+   	top: -80px;
+  	z-index: 100;
+}
+.submit:hover, .submit:focus {
+	background-color: pink;
+}
+.submit > * {
+	position: relative;
+}
+h4{
+	font-size: 12px;
+	font-family: arial;
+	margin-top: -5px;
+	margin-left: 220px;
+
+
+}
+
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
